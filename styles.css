@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(to bottom right, #1d71b8, #36a9e1);
+  color: #fff;
+  font-family: "montserrat";
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: auto;
+  max-width: 100px;
+}
+
+.profile-name {
+  text-align: center;
+  padding: 30px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid white;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links-shake{
+animation: shake 300ms infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0.5deg); }
+  50% { transform: rotate(-0.5deg); }
+  100% { transform: rotate(0.5deg); }
+}
+
+a {
+  text-decoration: none;
+  color: #161616;
+  transition: color 1s;
+}
+
+.center {
+  text-align:center;
+  padding: 20px;
+}
+
+.fb {
+  color: #3b5998;
+}
+
+.in {
+  color: #E1306C;
+}
+
+.whats {
+  color: #25d366;
+}
+
+.email {
+  color: #fff;
+}
